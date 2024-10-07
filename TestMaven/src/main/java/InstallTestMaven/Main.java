@@ -8,7 +8,7 @@ public class Main {
 
     }
     public static String abbrevName(String name) {
-        name = name.toUpperCase().charAt(0) + "." + name.toUpperCase().charAt(name.indexOf(" ") + 1) + ".";
+        name = name.toUpperCase().charAt(0) + "." + name.toUpperCase().charAt(name.indexOf(" ") + 1) + ".!";
         return name;
     }
 }
